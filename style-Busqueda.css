@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+    height: 100vh;
+}
+
+header {
+   
+    display: flex;
+    height: 60px;
+    padding: 0 18px;
+}
+.config-logo{
+    display: inline-block;
+    background-image: url(assets/config-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+.dots-logo {
+    display: inline-block;
+    background-image: url(assets/dots-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+
+.search-logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/search-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.micro-logo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(assets/micro-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.camera-logo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(assets/camera-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header figure img{
+    height: 60%;
+    margin-top: 10px;
+    
+}   
+ header .searcher{
+    margin: 10px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    padding: 8px 12px;
+    border: 1px solid gray;
+    border-radius: 24px;
+ }
+
+ header .searcher button{
+    border: none;
+    background-color: transparent;
+ }
+ header .searcher input{
+    width: 100%;
+    border: none;
+    color: whitesmoke;
+    background-color: transparent;
+    outline: none;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: indigo;
+}
+header .options {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto; 
+}
+
+header .options a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header .options a img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.imageGallery img {
+    width: 50px; /* O un valor específico en píxeles, por ejemplo, width: 200px; */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    padding: ""; 
+    
+}
+
+/* Estilos para cada imagen */
+.foto {
+
+
+   
+    height: 250px; 
+    width: auto; /* Ajusta según necesites */
+    margin: 10px; /* Espacio entre las imágenes */
+    text-align: center; /* Centra el contenido horizontalmente */
+    overflow: hidden; /* Evita que la descripción se salga del contenedor */
+}
+
+
+.foto img {
+    max-width: auto; /* Ajusta la imagen al 100% del ancho del contenedor */
+    max-height: 80%; /* Ajusta la imagen al 100% de la altura del contenedor */
+    border-radius: 10px;
+}    
+
+
+.foto p {
+    margin-top: 0px; /* Ajusta según necesites */
+    color: white;
+    padding: 5px;
+    font-size: 14px; /* Ajusta según necesites */
+}
