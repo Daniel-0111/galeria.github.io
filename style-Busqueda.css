@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    justify-content: center;
+    
 }
 
 body {
@@ -126,16 +128,11 @@ header .options a img {
 .principal {
     display: flex;
     flex-wrap: wrap;
-    padding: ""; 
-    
 }
 
 /* Estilos para cada imagen */
-.foto {
-
-
-   
-    height: 250px; 
+.foto {  
+    height: 300px; 
     width: auto; /* Ajusta según necesites */
     margin: 10px; /* Espacio entre las imágenes */
     text-align: center; /* Centra el contenido horizontalmente */
@@ -147,6 +144,7 @@ header .options a img {
     max-width: auto; /* Ajusta la imagen al 100% del ancho del contenedor */
     max-height: 80%; /* Ajusta la imagen al 100% de la altura del contenedor */
     border-radius: 10px;
+    height: 100%;
 }    
 
 
@@ -154,5 +152,6 @@ header .options a img {
     margin-top: 0px; /* Ajusta según necesites */
     color: white;
     padding: 5px;
+    height: auto;
     font-size: 14px; /* Ajusta según necesites */
 }
